@@ -98,11 +98,6 @@ end)
 Key.Name = "Key"
 Key.Parent = frame
 Key.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-
-
-
-
-
 Key.Position = UDim2.new(0.0439024866, 0, 0.278169036, 0)
 Key.Size = UDim2.new(0, 105, 0, 28)
 Key.Font = Enum.Font.FredokaOne
@@ -116,7 +111,9 @@ Btools.MouseButton1Down:connect(function()
 	local tool1 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 	local tool2 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 	local tool3 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
-	local tool4 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpa
+	local tool4 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+	local tool5 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+	tool1.BinType = "Clone"
 	tool2.BinType = "GameTool"
 	tool3.BinType = "Hammer"
 	tool4.BinType = "Script"
